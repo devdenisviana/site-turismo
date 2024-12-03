@@ -1,0 +1,29 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logoImagem {
+    width: 100px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.linkHome, .linkNorte, .linkNordeste, .linkCentroOeste {
+  font-family: "Playwrite HR Lijeva", cursive;
+  font-size: 24px;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(237, 85, 100);
+  transition: color 0.3s;
+}
+
+.linkHome:hover, .linkNorte:hover, .linkNordeste:hover, .linkCentroOeste:hover {
+    color: #F4BE8E;
+}

@@ -1,0 +1,22 @@
+main {
+    width: 100%;
+    height: 700px;
+    background-image: url('../../assets/imagens/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* .conteudoPrincipal {
+    background-color: transparent;
+}
+
+.textoPrincipal  {
+    background-color: transparent !important;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: red;
+} */
+
