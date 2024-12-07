@@ -1,3 +1,24 @@
-p {
-    color: red;
+/* src/styles.module.css */
+
+/* Estilo para o Footer */
+.footer {
+  /*background-color: #343a40;  Cor de fundo escura */
+  color: rgb(237, 85, 100);
+  text-align: center; /* Centraliza o texto */
+  padding: 20px 0; /* Adiciona padding em cima e embaixo */
+  font-size: 1rem; /* Tamanho da fonte */
+  letter-spacing: 1px; /* Um pequeno espaçamento entre as letras */
+}
+
+.footer p {
+  margin: 0; /* Remove a margem padrão */
+  font-weight: 400; /* Peso da fonte */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Sombra leve no texto */
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  .footer p {
+    font-size: 0.9rem; /* Ajuste no tamanho da fonte em telas pequenas */
+  }
 }
