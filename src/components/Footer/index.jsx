@@ -1,13 +1,10 @@
 import React from "react";
-import styles from "./styles.module.css";
-
+import styles from "./styles.module.css"; // Importando o arquivo CSS
 
 export default function Footer() {
-    return (
-      <>
-      <footer>
-        <p>Todos os direitos reservados</p>
-      </footer>
-      </>
-    );
+  return (
+    <footer className={styles.footer}>
+      <p>&copy; 2024 Todos os direitos reservados.</p>
+    </footer>
+  );
 }
